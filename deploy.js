@@ -7,7 +7,7 @@ const BROWSER_DIR = path.join(DOCS_DIR, "browser");
 
 // Step 1: Build Angular project with output folder as 'docs'
 console.log("Building Angular project...");
-execSync('ng build --output-path=docs --base-href="/my-angular-app/"', {
+execSync("ng build --output-path=docs", {
   stdio: "inherit",
 });
 
