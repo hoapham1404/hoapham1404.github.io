@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: light dark;
+}
+
+html {
+  background-color: light-dark(#000000, #ffffff);
+  color: light-dark(#ffffff, #000000);
+}
+
 body {
   @apply min-h-dvh bg-black text-white grid place-items-center;
 }
