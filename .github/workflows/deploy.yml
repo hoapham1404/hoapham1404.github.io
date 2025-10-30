@@ -30,7 +30,7 @@ jobs:
 
       - name: Deploy to main branch
         run: |
-          cd build
+          mkdir -p build && cd build 
           git init
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
