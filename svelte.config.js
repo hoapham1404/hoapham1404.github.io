@@ -16,6 +16,7 @@ const config = {
 		prerender: {
 			entries: ['*']
 		},
+		appDir: 'app'
 	}
 };
 
