@@ -32,8 +32,8 @@ jobs:
         run: |
           cd build
           git init
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.name "hoapham1404"
+          git config user.email "phamquanghoa1404@gmail.com"
           git add -A
           git commit -m "Deploy: $(date)"
           git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
